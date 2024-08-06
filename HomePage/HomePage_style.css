@@ -1,0 +1,47 @@
+/* The dropdown container */
+body{
+   font-family:'Times New Roman', Times, serif ;
+   background-color: rgba(205, 134, 63, 0.411);
+   
+}
+.contactus-content{
+    display: none;
+    position: absolute;
+    z-index: 1;
+
+}
+
+.contactus-content a{
+    float: none;
+    text-align: left;
+    display: block;
+}
+.link2:hover .contactus-content{
+    display: block;
+}
+
+/* .link2 #contactus {
+      border: none;
+    outline: none;
+     padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  } */
+
+   .image{
+    margin-left:50%;
+    margin-right:50%;
+    
+  }
+
+  .gif{
+    width: 200px;
+display: flex;
+justify-items: left;
+  }
+
+
+  
+
+

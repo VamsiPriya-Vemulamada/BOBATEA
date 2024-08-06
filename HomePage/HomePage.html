@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./HomePage_style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Internal styling -->
+    <style>
+    /* header
+   {
+        margin-top: 10px;
+        margin-left: 8px;
+        margin-right: 8px;
+    } */
+    /* child combinator */
+nav>ul{
+    display:flex;
+    height: 100px;
+    /* width: 100px; */
+ justify-content: space-evenly; 
+ list-style-type:none;
+  align-items: center;  
+  font-size: large;
+ background-color: peru;
+
+ }
+ /* descendant combinator */
+ 
+ li a{
+    border: 1px;
+    padding: 10px 3px;
+    height:10px;
+    color:black;
+    
+    }
+
+footer{
+        margin-top: 300px;
+} 
+
+footer>div
+{
+    display:flex;
+    height: 100px;
+    /* width: 100px; */
+  justify-content: space-evenly; 
+   list-style-type:none;
+  align-items: center;  
+  font-size: large;
+ background-color:peru;
+   } 
+  </style>
+  
+<header>
+    <!-- navigation bar -->
+<nav>
+ <ul>
+    <li class="link1"><a href="./About.html">about</a></li>
+    <li class="link2" >
+          <label id="contactus" for="contactus">contactus
+          </label>
+          <div class="contactus-content">
+            <a href="tel:9876765678p107">CallUs</a>
+            <a href="./Chat_with_us.html">EmailUS</a>
+            </div>
+    </li>
+    <li class="link3">
+        <label><a href="./Menu.html">Menu</a></label>
+    </li>
+    <li class="link4"><a href="./SigninPage.html">Signin</a></li>
+    </ul>
+    </nav>  
+ </header>
+<!-- article -->
+ <article style="float:center">
+    <h2 >BOBA TEA</h2>
+<p> Taste the flavors of tea with juicy Tapioca Pearls</p>
+
+</article>
+<!-- section -->
+ <section>
+    <img class="gif" src="https://media.tenor.com/IK2wQWPG3I0AAAAi/drink-bubble-tea.gif ">
+<img  class="image" src="../images/Boba-PNG-Images-HD.png ">  
+ </section>
+ <!-- footer -->
+<footer>
+<div>
+        <p style="margin-left:50% ;"> Follow us @ </p>
+        <!-- inlinestyling  -->
+       <img src="../images/social-icons.jpg" style="margin-left: auto; padding: 10px; margin-top: 10px; margin-bottom: 10px;" > 
+    </div>
+  </footer>
+ </body>
+</html>
